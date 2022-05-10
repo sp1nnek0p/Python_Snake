@@ -2,6 +2,8 @@
 
 ### Demonstrating OOP in action
 
+I really had fun playing around with the turtle Graphics package
+
 Scoreboard.py
 
 - Handles most of the onscreen function
