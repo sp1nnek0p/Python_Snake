@@ -4,14 +4,15 @@ from food import Food
 from scoreboard import Scoreboard
 
 import time
-# Global variable is_game_on
-is_game_on = True
+# Global variable is_game_on: bool
+is_game_on: bool = True
 
+# Instantiate the different classes used
 snake = Snake()
 food = Food()
 score = Scoreboard()
 
-
+# Setup the main game screen
 screen = Screen()
 screen.setup(600, 480)
 screen.bgcolor('black')
@@ -23,6 +24,7 @@ def main_loop():
   global is_game_on
   while is_game_on:
     # Different Dificulty Levels
+    # Can be adjusted
     if score.score < 10:
       time.sleep(0.15)
     elif score.score < 20:
@@ -37,7 +39,7 @@ def main_loop():
       time.sleep(0.05)
     else:
       time.sleep(0.03)
-
+    # Update the screen based on the Timeout above
     screen.update()
     snake.move()
 
@@ -63,7 +65,7 @@ def main_loop():
         is_game_on = False
         score.game_over()
 
-
+# Create a new game
 def new_game():
   global is_game_on
   is_game_on = True
