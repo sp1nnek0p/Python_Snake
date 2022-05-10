@@ -1,8 +1,30 @@
-# Turtle Graphics Snake Game
+# Snake Game (Python Turtle Graphics)
 
-### Demonstrating OOP in action
+## Description
 
-I really had fun playing around with the turtle Graphics package
+This is a basic implementation of the Classic Snake Game from the old Nokia mobile phones.
+
+The app was writen using Python, with object orientated programming in mind
+
+Note if you find commented-out print Statements that I did not remove it means I was simply testing something there and did not remove it.
+
+## How to Use/Run
+
+This was written using Python 3.10.4 so it should run fine with Python 3.10 installed on your machine.
+
+Basic controlls are
+Up arrow, Down arrow, Right arrow, Left arrow - Move your snake
+Enter/Return - Restarts the game
+
+### Game Features
+
+- Progressive difficulty, You can easily change this in the main.py file
+- Random Colored food that the snake must chase
+- Wall and Self Collision detection
+- Restart the game when Game Over by hitting Enter/Return
+- Keeps your score at the top of the screen
+
+### Files Included
 
 Scoreboard.py
 
@@ -19,11 +41,3 @@ Food.py
 Main.py
 
 - Main Game loop and Event listeners
-
-### Game Features
-
-> Progressive difficulty
->
-> Random Colored Food
->
-> Wall and Self Collision detection
