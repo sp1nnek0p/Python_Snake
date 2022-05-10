@@ -17,6 +17,10 @@ Up arrow, Down arrow, Right arrow, Left arrow - Move your snake
 
 Enter/Return - Restarts the game
 
+![Screen Shot](./Screen1.png)
+
+![Screen Shot](./Screen2.png)
+
 ### Game Features
 
 - Progressive difficulty, You can easily change this in the main.py file
