@@ -12,8 +12,9 @@ Note if you find commented-out print Statements that I did not remove it means I
 
 This was written using Python 3.10.4 so it should run fine with Python 3.10 installed on your machine.
 
-Basic controlls are
+### Basic controlls are
 Up arrow, Down arrow, Right arrow, Left arrow - Move your snake
+
 Enter/Return - Restarts the game
 
 ### Game Features
