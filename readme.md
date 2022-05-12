@@ -47,3 +47,9 @@ Food.py
 Main.py
 
 - Main Game loop and Event listeners
+
+---
+
+<p align="center"> <a href="https://twitter.com/paulstryd" target="blank"><img src="https://img.shields.io/twitter/follow/paulstryd?logo=twitter&style=for-the-badge" alt="paulstryd" /></a> </p>
+
+<p align="center"><a href="https://www.buymeacoffee.com/paulsmts"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="paulsmts" /></a></p><br><br>
