@@ -18,15 +18,15 @@ class Scoreboard(Turtle):
 
   def write_score(self):
     self.clear()
-    self.write(f'Score: {self.score}', align='center', font=('Sans', 20, 'normal'))
+    self.write(f'Score: {self.score}', align='center', font=('OCR A Extended', 20, 'normal'))
   
 
   def game_over(self):
     self.goto(0, 0)
-    self.color('green')
-    self.write('GAME OVER', align='center', font=('Sans', 30, 'bold'))
+    self.color('red')
+    self.write('GAME OVER', align='center', font=('OCR A Extended', 46, 'bold'))
     self.goto(0, -50)
-    self.write('Press ENTER to Play again', align='center', font=('Sans', 16, 'normal'))
+    self.write('Press ENTER to Play again', align='center', font=('OCR A Extended', 16, 'normal'))
 
 
   def clear_score(self):
